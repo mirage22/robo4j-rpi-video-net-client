@@ -1,0 +1,28 @@
+<robo4j>
+    <roboSystem id="robonetVideo1">
+        <config name="com.robo4j.root">
+            <value name="poolSizeScheduler" type="int">5</value>
+            <value name="poolSizeWorker" type="int">4</value>
+            <value name="poolSizeBlocking" type="int">4</value>
+            <config name="com.robo4j.messageServer">
+                <value name="hostname" type="String">192.168.0.20</value>
+                <!-- 0 means an anonymous port will be used for the message server -->
+                <value name="port" type="int">0</value>
+            </config>
+            <!-- Shall the server be published? This is the configuration of the ContextEmitter. -->
+            <config name="com.robo4j.discovery">
+                <value name="multicastAddress" type="String">238.12.15.254</value>
+                <value name="port" type="int">0x0FFE</value>
+                <value name="heartBeatInterval" type="int">250</value>
+                <value name="enabled" type="boolean">true</value>
+                <config name="com.robo4j.discovery.metadata">
+                    <!-- Metadata useful to communicate with -->
+                    <value name="unitConf" type="String">httpClientNetConfig</value>
+                    <value name="unitProcessor" type="String">videoConfigUnit</value>
+                    <value name="class" type="String">Map</value>
+                    <value name="desc" type="String">video:9042</value>
+                </config>
+            </config>
+        </config>
+    </roboSystem>
+</robo4j>
