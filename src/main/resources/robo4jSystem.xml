@@ -17,6 +17,7 @@
                 <value name="enabled" type="boolean">true</value>
                 <config name="com.robo4j.discovery.metadata">
                     <!-- Metadata useful to communicate with -->
+                    <value name="isCamera" type="String">true</value>
                     <value name="unitConf" type="String">httpClientNetConfig</value>
                     <value name="unitProcessor" type="String">videoConfigUnit</value>
                     <value name="class" type="String">Map</value>
