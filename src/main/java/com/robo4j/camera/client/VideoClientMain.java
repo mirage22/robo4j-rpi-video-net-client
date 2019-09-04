@@ -19,10 +19,6 @@ package com.robo4j.camera.client;
 
 import com.robo4j.RoboBuilder;
 import com.robo4j.RoboContext;
-import com.robo4j.camera.client.unit.VideoConfigurationUnit;
-import com.robo4j.configuration.Configuration;
-import com.robo4j.configuration.ConfigurationBuilder;
-import com.robo4j.units.rpi.camera.RaspividUnit;
 import com.robo4j.util.SystemUtil;
 
 import java.io.InputStream;

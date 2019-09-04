@@ -19,7 +19,7 @@
  */
 
 ext {
-    robo4jVersion = "alpha-0.4"
+    robo4jVersion = "0.5-SNAPSHOT"
     roboGradleVersion = "4.10"
     javacvVersion = "1.4.2"
     junitVersion = "4.12"

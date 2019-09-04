@@ -12,7 +12,7 @@ apply from: 'libraries.gradle'
 
 version "${robo4jVersion}"
 
-sourceCompatibility = 1.8
+sourceCompatibility = 11
 
 repositories {
     mavenLocal()
